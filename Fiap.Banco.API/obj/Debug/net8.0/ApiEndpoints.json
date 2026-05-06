@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.AgenciasController",
+    "Method": "Criar",
+    "RelativePath": "api/agencias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Fiap.Banco.API.DTOs.CriarAgenciaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.AgenciasController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/agencias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.ClientesController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/clientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.ClientesController",
+    "Method": "CriarPessoaFisica",
+    "RelativePath": "api/clientes/pf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Fiap.Banco.API.DTOs.CriarPessoaFisicaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.ClientesController",
+    "Method": "CriarPessoaJuridica",
+    "RelativePath": "api/clientes/pj",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Fiap.Banco.API.DTOs.CriarPessoaJuridicaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.ContratacoesController",
+    "Method": "Solicitar",
+    "RelativePath": "api/contratacoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Fiap.Banco.API.DTOs.CriarContratacaoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fiap.Banco.API.Controllers.ContratacoesController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/contratacoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fiap.Banco.API", "Fiap.Banco.API\Fiap.Banco.API.csproj", "{4CE6CC62-6DFB-48EB-8365-39A7FA98CBFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE6CC62-6DFB-48EB-8365-39A7FA98CBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE6CC62-6DFB-48EB-8365-39A7FA98CBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE6CC62-6DFB-48EB-8365-39A7FA98CBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE6CC62-6DFB-48EB-8365-39A7FA98CBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2827B8DF-0C62-4F08-827E-79EE68B56A94}
+	EndGlobalSection
+EndGlobal
