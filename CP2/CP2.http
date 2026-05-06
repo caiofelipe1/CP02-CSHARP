@@ -1,6 +1,0 @@
-@CP2_HostAddress = http://localhost:5086
-
-GET {{CP2_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
